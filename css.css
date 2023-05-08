@@ -1,11 +1,14 @@
-header{height: 75px; background-color:red; border: 1px solid #253342;
+header{height: 75px; background-color:white; border: 1px solid    #cfc1c0;
     position: fixed; width: 100%; z-index: 9999; top: 0; left: 0;}
 
-h1 {color:white; line-height: 75px; float: left;}
+h1{color:gray; line-height: 75px; float: left; margin: 0}
+.wrapper h1:hover{color: orange;}
 
-.menu{float:right;}
-.menu li{float:left;}
-.menu a{line-height: 75px; color: white; padding: 0 15px; display: block;}
+.menu{float:right; list-style:none;}
+.menu li{float:left; font-size: 20px;}
+.menu a{line-height: 55px; color: gray; padding: 0 15px; display: block; text-decoration-line:none;}
+.menu a:hover{color: orange;}
 
 .wrapper{width: 1170px; margin: 0 auto;}
-.clearfix{content: ''; display: block; clear: both;}
+.clearfix{content: ''; display: block; clear: both;}    
+
