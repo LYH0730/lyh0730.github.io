@@ -12,3 +12,17 @@ h1{color:gray; line-height: 75px; float: left; margin: 0}
 .wrapper{width: 1170px; margin: 0 auto;}
 .clearfix{content: ''; display: block; clear: both;}    
 
+body {margin: 0;}
+
+.seoul1{
+    background: url(Seoul3.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 65vh;
+  }
+
+.seoul1 title{
+    height: 200px;
+    line-height: 200px;
+    text-align : center;
+    border: 1px solid blue;
+}
