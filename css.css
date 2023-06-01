@@ -1,7 +1,7 @@
 header{height: 75px; background-color:white; border: 1px solid    #cfc1c0;
     position: fixed; width: 100%; z-index: 9999; top: 0; left: 0;}
 
-h1{color:gray; line-height: 75px; float: left; margin: 0}
+.wrapper h1{color:gray; line-height: 75px; float: left; margin: 0}
 .wrapper h1:hover{color: orange;}
 
 .menu{float:right; list-style:none;}
@@ -14,15 +14,39 @@ h1{color:gray; line-height: 75px; float: left; margin: 0}
 
 body {margin: 0;}
 
+
 .seoul1{
+    position: relative;
     background: url(Seoul3.jpg) no-repeat center fixed;
     background-size: cover;
     height: 65vh;
-  }
-
-.seoul1 title{
-    height: 200px;
-    line-height: 200px;
-    text-align : center;
-    border: 1px solid blue;
 }
+
+.seoul1_cover{
+    position: absolute;
+    height: 65vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index:1;
+}
+
+
+.seoul1_title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    z-index: 2;
+    text-align: center;
+    line-height: 100px;
+}
+
+.seoul1_title h1{
+    color:white;
+}
+
+.seoul1_title h2{
+    color:white;
+}
+
