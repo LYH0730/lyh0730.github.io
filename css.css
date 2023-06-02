@@ -50,3 +50,33 @@ body {margin: 0;}
     color:white;
 }
 
+.beforeseoul {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .beforeseoul table {
+    margin: 0 auto;
+    border: 10px solid #444444;
+  }
+
+.beforeseoul_3{
+
+    width: 800px;
+    height: 1100px;
+}
+
+
+.beforeseoul_33{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.beforeseoul_2{
+    text-align: left;
+    font-size: 50px;
+    line-height: 50px;    
+}
