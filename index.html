@@ -6,7 +6,7 @@
         <script>
             //이미지 클릭시 새 윈도우 생성
             function load(URL) {
-                window.open(URL, "myWin", "left=500, top=500, width=1600, height=900");
+                window.open(URL, "myWin", "left=500, top=300, width=1600, height=900");
             }
         </script>
     </head>
@@ -18,7 +18,7 @@
                     <ul class="menu">
                         <li><a href="#">Korea</a></li>
                         <li><a href="#Places2">Places</a></li>
-                        <li><a href="">Food</a></li>
+                        <li><a href="#Food2">Food</a></li>
                         <li><a href="">Entertainment</a></li>
                     </ul>   
                 </nav>
@@ -61,22 +61,43 @@
         </table>
     </div>
     <div id="Places1">
-        <br><br><br><br><br><br></td>
+        <br><br><br><br><br><br>
         <table>
             <tr>
-                <td><img src="Places.jpg"></td>
+                <td><img src="Places/Places.jpg"></td>
             </tr>
             <tr>
-                <td><img src="HanRiver/HanRiver.jpg" width="900" height="600"
-                    style="border:0; cursor:pointer" onClick="javascript:load('HanRiver/HanRiver.html')"></td>
+                <td><img src="Places/HanRiver/HanRiver.jpg" width="900" height="600"
+                    style="border:0; cursor:pointer" onClick="javascript:load('Places/HanRiver/HanRiver.html')"></td>
             </tr>
             <tr>
-                <td><img src="KonKuk/Konkuk.jpg" width="900" height="600"
-                    style="border:0; cursor:pointer" onClick="javascript:load('Konkuk/Konkuk.html')"><br><br></td>
+                <td><img src="Places/KonKuk/Konkuk.jpg" width="900" height="600"
+                    style="border:0; cursor:pointer" onClick="javascript:load('Places/Konkuk/Konkuk.html')"><br><br></td>
             </tr>
 
         </table>
-        <br><br><br><br><br><br><br>
+        <br><br><br><br id="Food2"><br><br><br>
+        
+        
+        <div id="Food1">
+            <br><br><br><br><br><br>
+            <table>
+                <tr>
+                    <td><img src="Food/Food.jpg"></td>
+                </tr>
+                <tr>
+                    <td><img src="Food/Chicken/Chicken.jpg" width="700" height="400"
+                        style="border:0; cursor:pointer" onClick="javascript:load('Food/Chicken/Chicken.html')"></td>
+                </tr>
+                <tr>
+                    <td><img src="Food/PorkBelly/PorkBelly.jpg" width="600" height="400"></td>
+                </tr>
+                <tr>
+                    <td><img src="Food/SoondaeSoup/SoondaeSoup.jpg" width="600" height="400"></td>
+                </tr>
+            </table>
+
+        </div>
 
 
 
