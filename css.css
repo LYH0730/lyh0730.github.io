@@ -67,6 +67,7 @@ body {margin: 0;}
 .beforeseoul_3{
     text-align: center;
     margin: 0px auto;
+
  
 
     width: 800px;
@@ -126,7 +127,7 @@ body {margin: 0;}
     margin: 0 auto;
     text-align: center;
     border-collapse: collapse;
-    border-radius: 10px;
+    border-radius: 20px;
     border-style: hidden;
     box-shadow: 0 0 0 20px white;
     background-color: white;
@@ -135,4 +136,26 @@ body {margin: 0;}
 
 .FoodImg:hover{
     box-shadow: 0 0 0 3px rgb(34, 34, 34);
+}
+
+#Entertainment1{
+    background: rgb(206, 180, 33);
+    text-align: center;
+    margin: 0px auto;
+    
+}
+
+#Entertainment1 table{
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 20px;
+    border-style: hidden;
+    box-shadow: 0 0 0 20px white;
+    background-color: white;
+
+}
+
+.EntertainmentImg:hover{
+    box-shadow: 0 0 0 3px rgb(206, 180, 33);
 }
