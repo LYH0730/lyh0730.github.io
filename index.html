@@ -3,7 +3,12 @@
     <head>
         <link type="text/css" rel="stylesheet" href="css.css">
         <title>In to Seoul</title>
-        <style></style>
+        <script>
+            //이미지 클릭시 새 윈도우 생성
+            function load(URL) {
+                window.open(URL, "myWin", "left=500, top=500, width=1600, height=900");
+            }
+        </script>
     </head>
     <body>
         <header>
@@ -12,7 +17,7 @@
                 <nav>
                     <ul class="menu">
                         <li><a href="#">Korea</a></li>
-                        <li><a href="#Places1">Places</a></li>
+                        <li><a href="#Places2">Places</a></li>
                         <li><a href="">Food</a></li>
                         <li><a href="">Entertainment</a></li>
                     </ul>   
@@ -28,11 +33,12 @@
             </div>
             <div class="seoul1_cover"></div>
         </div>
+
         
+        <div class="Korea">
         <table class="beforeseoul">
             <tr class="beforeseoul_2">
-                <td><img src="News.jpg" id="Places1"></td>
-                <td><img src="Weather.jpg"></td>
+                <td><br><br><img src="News.jpg"></td>
             </tr>
             <tr>
                 <td>
@@ -41,19 +47,53 @@
                     ></iframe>
                 </div>
                 </td>
+            </tr>
+            <tr>
+                <td><br><br><br><br><img src="Weather.jpg"></td>
+            </tr>
+            <tr>
                 <td>
                     <div class="beforeseoul_3">
                     <iframe class="beforeseoul_33" src="https://www.accuweather.com/en/kr/seoul/226081/daily-weather-forecast/226081" width="1400" height="1130" scrolling="no" frameborder="0"></iframe>
                     </div>
-                </td>
+                <br id="Places2"><br><br></td>
             </tr>
         </table>
+    </div>
+    <div id="Places1">
+        <br><br><br><br><br><br></td>
+        <table>
+            <tr>
+                <td><img src="Places.jpg"></td>
+            </tr>
+            <tr>
+                <td><img src="HanRiver/HanRiver.jpg" width="900" height="600"
+                    style="border:0; cursor:pointer" onClick="javascript:load('HanRiver/HanRiver.html')"></td>
+            </tr>
+            <tr>
+                <td><img src="KonKuk/Konkuk.jpg" width="900" height="600"
+                    style="border:0; cursor:pointer" onClick="javascript:load('Konkuk/Konkuk.html')"><br><br></td>
+            </tr>
+
+        </table>
+        <br><br><br><br><br><br><br>
+
+
+
+
+
+
+    </div>
 
         
 
-        
+       
     </body>
 </html>
 
 https://www.koreatimes.co.kr/www2/index.asp
 https://www.accuweather.com/en/kr/seoul/226081/daily-weather-forecast/226081
+
+
+https://janglism.tistory.com/95 //HanChick
+https://data.si.re.kr/photo/06R03416Ac70000 //HanRest
