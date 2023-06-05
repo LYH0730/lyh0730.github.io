@@ -111,6 +111,10 @@ body {margin: 0;}
 
 }
 
+.PlacesImg:hover{
+    box-shadow: 0 0 0 3px darkcyan;
+}
+
 #Food1{
     background: rgb(34, 34, 34);
     text-align: center;
@@ -127,4 +131,8 @@ body {margin: 0;}
     box-shadow: 0 0 0 20px white;
     background-color: white;
 
+}
+
+.FoodImg:hover{
+    box-shadow: 0 0 0 3px rgb(34, 34, 34);
 }
